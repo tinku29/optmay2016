@@ -7,9 +7,11 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class GhPrb {
+	
+	private static int CAPACITY = 10;
 
 	public static void main(String[] args) {
-		final BlockingQueue<PullRequest> queue = new LinkedBlockingQueue<PullRequest>();
+		final BlockingQueue<PullRequest> queue = new LinkedBlockingQueue<PullRequest>(CAPACITY);
 		 final Lock aLock = new ReentrantLock();
 		Thread prScheduler1 = new Thread("abc PR") {
 
@@ -62,29 +64,35 @@ public class GhPrb {
 
 		prScheduler3.start();
 		
-		Thread builder = new Thread("CONSUMER") {
-			public void run() {
-				try {
-					PullRequest processPR = null;
-					PullRequest pr = queue.peek();
-					if("abc".equals(pr.getRepository())) {
-						aLock.lock();
-						processPR = queue.take();
-						startBuilding(processPR);
-						aLock.unlock();
-					} else {
-						processPR = queue.take();
-						processPR = queue.take();
-						startBuilding(processPR);
+			
+			Thread builder = new Thread("Builder") {
+				public void run() {
+					System.out.println("Started the Builder");
+					try {
+						PullRequest processPR = null;
+						while(queue.size()>0) {
+							
+							PullRequest pr = queue.peek();
+							if(pr!=null && "abc".equals(pr.getRepository())) {
+								aLock.lock();
+								processPR = queue.take();
+								startBuilding(processPR);
+								aLock.unlock();
+							} else {
+								processPR = queue.take();
+								startBuilding(processPR);
+							}
+							// thread will block here
+							System.out.printf("[%s] consumed event : %s %n", Thread.currentThread().getName(), pr.toString());
+						}
+					} catch (InterruptedException e) {
+						e.printStackTrace();
 					}
-					// thread will block here
-					System.out.printf("[%s] consumed event : %s %n", Thread.currentThread().getName(), pr.toString());
-				} catch (InterruptedException e) {
-					e.printStackTrace();
 				}
-			}
-		};
-		builder.start();
+			};
+			builder.start();
+			
+
 		
 	
 	}
