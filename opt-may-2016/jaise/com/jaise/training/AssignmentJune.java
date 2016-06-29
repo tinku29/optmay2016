@@ -3,7 +3,7 @@ package com.jaise.training;
 import java.util.Scanner;
 
 public class AssignmentJune {
-	//method to find the grade
+	// method to find the grade
 	static void grade() {
 		System.out.println("Enter the marks");
 		Scanner m = new Scanner(System.in);
@@ -24,7 +24,8 @@ public class AssignmentJune {
 		} else
 			System.out.println("Mark not valid");
 	}
-	//method to find whether eligible to vote
+
+	// method to find whether eligible to vote
 	static void vote() {
 		System.out.println("Enter your age: ");
 		Scanner a = new Scanner(System.in);
@@ -35,6 +36,7 @@ public class AssignmentJune {
 		} else
 			System.out.println("Sorry you are not eligible to vote.");
 	}
+
 	// method to find all odd numbers between 1 to 100
 	static void odd() {
 
@@ -45,6 +47,7 @@ public class AssignmentJune {
 			}
 		}
 	}
+
 	// method to find all prime numbers between 1 to 100
 	static void prime() {
 		System.out.println("the prime numbers are ");
@@ -68,9 +71,10 @@ public class AssignmentJune {
 			}
 		}
 	}
+
 	// method to print numbers in a pattern
-	static void pattern(){
-		
+	static void pattern() {
+
 		for (int i = 1; i <= 5; i++) {
 			for (int j = 1; j <= i; j++) {
 				System.out.print(j + " ");
@@ -78,8 +82,9 @@ public class AssignmentJune {
 			System.out.print("\n");
 		}
 	}
+
 	// method to determin the current month
-	static void currentmonth(){
+	static void currentmonth() {
 		String[] month = new String[12];
 		month[0] = "January";
 		month[1] = "February";
