@@ -9,7 +9,7 @@ public class Car extends Vehicle {
 		System.out.println("Car: The car is going fast");
 		
 	}
-
+//
 	@Override
 	public void stop() {
 		System.out.println("car: The car is stopping");

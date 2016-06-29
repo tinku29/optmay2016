@@ -11,7 +11,7 @@ public class Truck extends Vehicle {
 	@Override
 	public void stop() {
 		System.out.println("Truck: Will make a stop every 8 hours");
-		
+		//
 	}
 
 	@Override

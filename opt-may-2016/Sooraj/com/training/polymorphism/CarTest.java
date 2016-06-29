@@ -8,7 +8,7 @@ public class CarTest {
 		obj.implement(new Toyota());
 		System.out.println("------------------------");
 		System.out.println("Entering the carwash");
-		
+		//
 		CarWash c1=new CarWash();
 		c1.wash1(new Toyota());
 		CarWash c2=new CarWash();
