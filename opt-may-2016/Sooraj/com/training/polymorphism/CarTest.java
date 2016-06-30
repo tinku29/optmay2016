@@ -20,13 +20,13 @@ public class CarTest {
 		
 		System.out.println("Entering DMV");
 		DMV d=new DMV();
-		d.Truck1(new Truck());
+		d.registerVehicles(new Truck());
 		DMV d1=new DMV();
-		d1.Truck1(new Toyota());
+		d1.registerVehicles(new Toyota());
 		DMV d2 =new DMV();
-		d2.Truck1(new Suzuki());
+		d2.registervehicles(new Suzuki());
 		DMV d3 =new DMV();
-		d3.Truck1(new Honda());
+		d3.registerVehicles(new Honda());
 		
 		
 		
