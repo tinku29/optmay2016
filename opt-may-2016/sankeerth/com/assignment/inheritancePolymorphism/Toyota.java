@@ -1,18 +1,18 @@
-package InheritancePolymorphism;
+package com.assignment.inheritancePolymorphism;
 
 public class Toyota extends Car{
 	
 	@Override
-	public void DMV(){
+	public void dmv(){
 		System.out.println("Register a Toyota!");
 	}
 	
 	@Override
-	public void CarWash(){
+	public void carWash(){
 		System.out.println("Wash a Toyota!");
 	}
 	
-	public void ToyotaDealer(){
+	public void toyotaDealer(){
 		System.out.println("You have entered Toyota DealerShip!");
 	}
 }

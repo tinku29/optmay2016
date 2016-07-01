@@ -1,8 +1,8 @@
-package InheritancePolymorphism;
+package com.assignment.inheritancePolymorphism;
 
 public class Vehicle {
 
-	public void DMV(){
+	public void dmv(){
 		System.out.println("Vehicles can get registered!");
 	}
 }

@@ -1,33 +1,33 @@
-package InheritancePolymorphism;
+package com.assignment.inheritancePolymorphism;
 
 public class Test {
 
 	public static void main(String[] args) {
 		
 		Vehicle vc = new Car();
-		vc.DMV();
+		vc.dmv();
 		System.out.println("=========================");
 		
 		Vehicle vt = new Truck();
-		vt.DMV();
+		vt.dmv();
 		System.out.println("=========================");
 		
 		Car ch = new Honda();
-		ch.DMV();
-		ch.CarWash();
+		ch.dmv();
+		ch.carWash();
 		System.out.println("=========================");
 		
 		Car cs = new Suzuki();
-		cs.DMV();
-		cs.CarWash();
+		cs.dmv();
+		cs.carWash();
 		System.out.println("=========================");
 		
 		Car ct = new Toyota();
-		ct.DMV();
-		ct.CarWash();
+		ct.dmv();
+		ct.carWash();
 		
 		Toyota t = new Toyota();
-		t.ToyotaDealer();
+		t.toyotaDealer();
 
 	}
 

@@ -1,9 +1,9 @@
-package InheritancePolymorphism;
+package com.assignment.inheritancePolymorphism;
 
 public class Truck extends Vehicle{
 	
 	@Override
-	public void DMV(){
+	public void dmv(){
 		System.out.println("Register a Truck!");
 	}
 
