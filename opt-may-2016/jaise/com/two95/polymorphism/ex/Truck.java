@@ -17,8 +17,8 @@ public class Truck extends Vehicle {
 
 	public void registration() {
 		System.out.println("The truck is registered with the following details");
-		System.out.println("truck registration \nvehicleType=" + vehicleType + "\nengCC=" + engCC + "\nseatingCapacity="
-				+ seatingCapacity + "\nmakeYear=" + makeYear);
+		System.out.println("truck registration \nvehicleType=" + getVehicleType() + "\nengCC=" + getEngCC() + "\nseatingCapacity=" + getSeatingCapacity()
+				+ "\nmakeYear=" + getMakeYear());
 	}
 
 	@Override
