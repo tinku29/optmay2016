@@ -1,12 +1,12 @@
 package com.training.polymorphism;
 
 public class ToyotaDealer {
-	public void implement(Vehicle T){
+	public void sellingCars(Vehicle toyotaCar){
 		System.out.println("Welcome to Toyota dealership");
 		System.out.println("The cars have the following specifications");
-		T.goFast();
-	        T.stop();
-		T.reverse();
+		toyotaCar.goFast();
+	        toyotaCar.stop();
+		toyotaCar.reverse();
 		
 	}
 //
