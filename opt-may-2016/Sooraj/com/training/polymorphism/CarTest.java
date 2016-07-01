@@ -5,7 +5,7 @@ public class CarTest {
 	public static void main(String[] args) {
 		System.out.println("Dealer of Toyota");
 		ToyotaDealer obj =new ToyotaDealer();
-		obj.implement(new Toyota());
+		obj.sellingCars(new Toyota());
 		System.out.println("------------------------");
 		System.out.println("Entering the carwash");
 		//
