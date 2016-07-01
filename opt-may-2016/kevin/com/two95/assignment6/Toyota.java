@@ -2,7 +2,7 @@ package com.two95.assignment6;
 
 public class Toyota extends Car {
 	
-	public String CarWash(){
+	public String carWash(){
 		return "Toyota car can be washed here";
 	}
 	public void register(){

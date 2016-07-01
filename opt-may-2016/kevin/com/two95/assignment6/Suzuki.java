@@ -1,10 +1,10 @@
 package com.two95.assignment6;
 
 public class Suzuki extends Car{
-	public void BuySuzuki(){
+	public void buySuzuki(){
 		System.out.println("You can buy Suzuki cars from here");
 	}
-	public String CarWash(){
+	public String carWash(){
 		return "Suzuki car can be washed here";
 	}
 	public void register(){

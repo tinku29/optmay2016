@@ -1,7 +1,7 @@
 package com.two95.assignment6;
 
 public class Car extends Vehicle {
-	public String CarWash(){
+	public String carWash(){
 		return " car can be washed here";
 		
 	}

@@ -7,11 +7,11 @@ public class VehicleTest {
 		
 		
 		CarWorkshop w=new CarWorkshop();
-		String honda=w.CarWash(new Honda());
+		String honda=w.carWash(new Honda());
 		System.out.println(honda);
-		String toyota=w.CarWash(new Toyota());
+		String toyota=w.carWash(new Toyota());
 		System.out.println(toyota);
-		String suzuki=w.CarWash(new Suzuki());
+		String suzuki=w.carWash(new Suzuki());
 		System.out.println(suzuki);
 		DMV d=new DMV();
 		d.register(new Vehicle());
