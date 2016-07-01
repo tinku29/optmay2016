@@ -26,7 +26,7 @@ public class Suzuki extends Car {
 	}
 
 	public void registration() {
-		System.out.println("Suzuki registration \nvehicleType=" + vehicleType + "\nengCC=" + engCC
-				+ "\nseatingCapacity=" + seatingCapacity + "\nmakeYear=" + makeYear);
+		System.out.println("Suzuki registration \nvehicleType=" + getVehicleType() + "\nengCC=" + getEngCC() + "\nseatingCapacity=" + getSeatingCapacity()
+				+ "\nmakeYear=" + getMakeYear());
 	}
 }
