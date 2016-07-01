@@ -4,6 +4,7 @@ public class PolymorphismTest {
 
 	public static void main(String[] args) {
 		Toyota k = new Toyota("car", 1000, 5, 2016);
+		Car civ = new Honda("Car", 1198,5,2016);
 		ToyotaDealer m = new ToyotaDealer();
 		// selling toyota
 		m.sell(k);
@@ -23,7 +24,11 @@ public class PolymorphismTest {
 		//truck
 		Truck tr = new Truck("truck",1800,4,2007);
 		d.registration(tr);
-		
+		System.out.println("\n............................\n");
+		// Honda registration and car wash
+		d.registration(civ);
+		System.out.println("\n............................\n");
+		cw.carwash(civ);
 
 	}
 

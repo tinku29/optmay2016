@@ -31,8 +31,8 @@ public class Toyota extends Car {
 	}
 
 	public void registration() {
-		System.out.println("toyota registration \nvehicleType=" + vehicleType + "\nengCC=" + engCC
-				+ "\nseatingCapacity=" + seatingCapacity + "\nmakeYear=" + makeYear);
+		System.out.println("toyota registration \nvehicleType=" + getVehicleType() + "\nengCC=" + getEngCC() + "\nseatingCapacity=" + getSeatingCapacity()
+				+ "\nmakeYear=" + getMakeYear());
 
 	}
 
