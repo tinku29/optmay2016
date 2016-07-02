@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Assgn1 {
 
+	//Adding comments
 	public static void main(String[] args) {
 		voteEligibility();
 		printGrade();

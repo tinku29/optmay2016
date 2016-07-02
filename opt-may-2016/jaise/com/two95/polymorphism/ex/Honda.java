@@ -1,6 +1,17 @@
 package com.two95.polymorphism.ex;
 
 public class Honda extends Car {
+	
+	public Honda() {
+		super();
+		
+	}
+
+	public Honda(String vehicleType, int engCC, int seatingCapacity, int makeYear) {
+		super(vehicleType, engCC, seatingCapacity, makeYear);
+		
+	}
+
 	@Override
 	public void acceleration() {
 		super.acceleration();
@@ -15,8 +26,9 @@ public class Honda extends Car {
 	}
 
 	public void registration() {
-		System.out.println("Honda registration \nvehicleType=" + vehicleType + "\nengCC=" + engCC
-				+ "\nseatingCapacity=" + seatingCapacity + "\nmakeYear=" + makeYear);
+		super.registration();
+		System.out.println("Honda registration \nvehicleType=" + getVehicleType() + "\nengCC=" + getEngCC()
+				+ "\nseatingCapacity=" + getSeatingCapacity() + "\nmakeYear=" + getMakeYear());
 	}
 
 }
