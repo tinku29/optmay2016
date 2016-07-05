@@ -24,7 +24,7 @@ public class CarTest {
 		DMV d1=new DMV();
 		d1.registerVehicles(new Toyota());
 		DMV d2 =new DMV();
-		d2.registervehicles(new Suzuki());
+		d2.registerVehicles(new Suzuki());
 		DMV d3 =new DMV();
 		d3.registerVehicles(new Honda());
 		
