@@ -4,17 +4,17 @@ public class PolymorphismTest {
 
 	public static void main(String[] args) {
 		
-		Parent p = new Child();
+		NewParent p = new Child();
 		p.pray();
-		p.sing();
-		p.work();
+		p.singLoudly();
+		p.renamedWork();
 	}
 	//tight coupling
 	public static void goToParty(GrandChild gc) {
 		gc.dance();
 	}
 	//loosely coupled
-	public static void goToTemple(Parent p) {
+	public static void goToTemple(NewParent p) {
 		p.pray();
 	}
 
