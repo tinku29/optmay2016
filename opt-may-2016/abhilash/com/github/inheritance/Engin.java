@@ -1,4 +1,4 @@
-package com.github.abhilash;
+package com.github.inheritance;
 
 public class Engin {
 	
