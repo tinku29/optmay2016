@@ -1,12 +1,12 @@
 /**
  * 
  */
-package com.univ.mygame.bean;
+package src.com.univ.mygame.bean;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 
-import com.univ.mygame.consts.GameConstants;
-import com.univ.mygame.threads.Contestant;
+import src.com.univ.mygame.consts.GameConstants;
+import src.com.univ.mygame.threads.Contestant;
 
 
 /**
