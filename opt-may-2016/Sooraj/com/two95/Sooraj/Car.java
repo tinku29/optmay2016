@@ -1,12 +1,12 @@
 package com.two95.Sooraj;
-
+//
 public class Car extends Vehicle {
 	private String company;
 	private String model;
 	private int registration_no;
 	public String getCompany() {
 		return company;
-	}
+	} //
 	public void setCompany(String company) {
 		this.company = company;
 	}

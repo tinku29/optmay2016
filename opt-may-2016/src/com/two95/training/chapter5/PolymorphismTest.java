@@ -8,6 +8,9 @@ public class PolymorphismTest {
 		p.pray();
 		p.sing();
 		p.work();
+		System.out.println("=====================");
+		goToTemple(p);
+		
 	}
 	//tight coupling
 	public static void goToParty(GrandChild gc) {

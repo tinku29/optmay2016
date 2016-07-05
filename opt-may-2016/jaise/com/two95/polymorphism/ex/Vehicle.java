@@ -1,10 +1,10 @@
 package com.two95.polymorphism.ex;
 
 public abstract class Vehicle {
-	public String vehicleType;
-	public int engCC;
-	public int seatingCapacity;
-	public int makeYear;
+	private String vehicleType;
+	private int engCC;
+	private int seatingCapacity;
+	private int makeYear;
 
 	public Vehicle() {
 	}
@@ -73,8 +73,8 @@ public abstract class Vehicle {
 	// toString
 	@Override
 	public String toString() {
-		return "Vehicle details\nvehicleType=" + vehicleType + "\nengCC=" + engCC + "\nseatingCapacity=" + seatingCapacity
-				+ "\nmakeYear=" + makeYear;
+		return "Vehicle details\nvehicleType=" + getVehicleType() + "\nengCC=" + getEngCC() + "\nseatingCapacity=" + getSeatingCapacity()
+				+ "\nmakeYear=" + getMakeYear();
 	}
 
 }
