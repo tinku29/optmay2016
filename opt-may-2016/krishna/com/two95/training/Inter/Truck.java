@@ -3,7 +3,7 @@ package com.two95.training.Inter;
 import java.util.Scanner;
 
 public class Truck extends Vehicle {
-	@override
+	@Override
 	public void dmvBuy() {
 		System.out.println("Please Register your Truck with dmv");
 		Scanner ss = new Scanner(System.in);
@@ -17,7 +17,7 @@ public class Truck extends Vehicle {
 				"HI " + a + " your Truck registration is successful you will recive your registration number soon.");
 	}
 
-	@override
+	@Override
 	public void dmvSell() {
 		System.out.println("Please Transfer your Ownership :");
 		Scanner ss = new Scanner(System.in);
@@ -28,7 +28,7 @@ public class Truck extends Vehicle {
 		System.out.println("HI " + a + " your Truck registration is successful transferred to " + b);
 	}
 
-	@override
+	@Override
 	public void dmvHistoryCheck() {
 		System.out.println("Check Truck history here");
 		Scanner ss = new Scanner(System.in);

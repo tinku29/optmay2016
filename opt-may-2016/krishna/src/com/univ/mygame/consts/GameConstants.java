@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.univ.mygame.consts;
+package src.com.univ.mygame.consts;
 
 
 /**

@@ -1,12 +1,12 @@
 package com.two95.training.chapter5;
 
-public class Child extends Parent {
+public class Child extends NewParent {
 	
-	public void work() {
+	public void renamedWork() {
 		System.out.println("Child : work");
 	}
 
-	public void sing() {
+	public void singLoudly() {
 		System.out.println("Child : sing");
 	}
 	

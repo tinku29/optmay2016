@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.univ.mygame.threads;
+package src.com.univ.mygame.threads;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -12,8 +12,8 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Random;
 
-import com.univ.mygame.bean.Group;
-import com.univ.mygame.consts.GameConstants;
+import src.com.univ.mygame.bean.Group;
+import src.com.univ.mygame.consts.GameConstants;
 
 
 /**
