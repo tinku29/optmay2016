@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.univ.mygame.bean;
+package src.com.univ.mygame.bean;
 
 
 /**

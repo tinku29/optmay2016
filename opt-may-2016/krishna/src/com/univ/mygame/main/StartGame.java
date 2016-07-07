@@ -1,16 +1,16 @@
 /**
  * 
  */
-package com.univ.mygame.main;
+package src.com.univ.mygame.main;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import com.univ.mygame.bean.Group;
-import com.univ.mygame.consts.GameConstants;
-import com.univ.mygame.threads.Announcer;
-import com.univ.mygame.threads.Contestant;
+import src.com.univ.mygame.bean.Group;
+import src.com.univ.mygame.consts.GameConstants;
+import src.com.univ.mygame.threads.Announcer;
+import src.com.univ.mygame.threads.Contestant;
 
 
 /**
