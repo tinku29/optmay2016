@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.univ.mygame.threads;
+package src.com.univ.mygame.threads;
 
 
 
