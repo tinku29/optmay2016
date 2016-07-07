@@ -3,7 +3,7 @@ package com.two95.training.Inter;
 import java.util.Scanner;
 
 public class Toyota extends Cars {
-	@override
+	@Override
 	public void dmvBuy() {
 		System.out.println("Please Register your new Toyota car with dmv");
 		Scanner ss = new Scanner(System.in);
@@ -17,7 +17,7 @@ public class Toyota extends Cars {
 				+ " your new Toyota car registration is successful you will recive your registration number soon.");
 	}
 
-	@override
+	@Override
 	public void dmvSell() {
 		System.out.println("Please Transfer your Ownership :");
 		Scanner ss = new Scanner(System.in);
@@ -28,7 +28,7 @@ public class Toyota extends Cars {
 		System.out.println("HI " + a + " your new Toyota car registration is successful transferred to " + b);
 	}
 
-	@override
+	@Override
 	public void dmvHistoryCheck() {
 		System.out.println("Check all Toyota car history here");
 		Scanner ss = new Scanner(System.in);
@@ -37,7 +37,7 @@ public class Toyota extends Cars {
 		System.out.println("Car Reg Number with " + a + " is a Toyota model more details will be mailed to you soon ");
 	}
 
-	@override
+	@Override
 	public void carWash() {
 		System.out.println("Washes all Toyota Cars");
 	}
