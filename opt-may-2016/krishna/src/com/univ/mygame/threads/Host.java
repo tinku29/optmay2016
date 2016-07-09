@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.univ.mygame.threads;
+package src.com.univ.mygame.threads;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -12,9 +12,9 @@ import java.util.Map.Entry;
 
 import javax.swing.ListCellRenderer;
 
-import com.univ.mygame.bean.QA;
-import com.univ.mygame.bean.QuestionAnswer;
-import com.univ.mygame.consts.GameConstants;
+import src.com.univ.mygame.bean.QA;
+import src.com.univ.mygame.bean.QuestionAnswer;
+import src.com.univ.mygame.consts.GameConstants;
 
 
 /**
