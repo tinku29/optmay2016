@@ -1,6 +1,5 @@
 package com.sharanya.training;
 
-import com.javatraining.week1.Employee;
 
 public class TestEmp {
 
