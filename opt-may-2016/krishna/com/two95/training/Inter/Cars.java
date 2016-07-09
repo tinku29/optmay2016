@@ -1,18 +1,18 @@
 package com.two95.training.Inter;
 
 public class Cars extends Vehicle {
-	@override
+	@Override
 	public void dmvBuy() {
 		System.out.println("All cars should be regitered through DMV");
 	}
 
-	@override
+	@Override
 	public void dmvSell() {
 		System.out.println("All cars ownership is tranferred through DMV after selling");
 
 	}
 
-	@override
+	@Override
 	public void dmvHistoryCheck() {
 		System.out.println("Check the car history through DMV");
 	}
