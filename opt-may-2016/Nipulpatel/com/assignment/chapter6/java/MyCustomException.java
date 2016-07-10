@@ -14,5 +14,6 @@ public class MyCustomException extends Exception {
 		public MyCustomException(String message) {
 		// Pass the message to the parent class constructor
 		super(message);
+		System.out.println("Costomized Excption");
 		}
 	}

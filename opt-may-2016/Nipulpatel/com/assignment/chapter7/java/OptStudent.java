@@ -7,42 +7,42 @@
  * class : Comparator
  ***************************************************************/
 
-
 package com.assignment.chapter7.java;
 
 public class OptStudent {
-	
-	
+
 	String firstName;
 	String lastName;
 	int age;
 	String height;
-	
-	public OptStudent(String firstName, String lastName, int age , String height ) {
-	this.firstName = firstName;
-	this.lastName = lastName;
-	this.age = age;
-	this.height=height;//Height 
-	
-	}public String getFirstName() {
+
+	public OptStudent(String firstName, String lastName, int age, String height) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.age = age;
+		this.height = height;// Height
+
+	}
+
+	public String getFirstName() {
 		return this.firstName;
 	}
+
 	public String getLastName() {
-	
-	
-	
-	return this.lastName;
+
+		return this.lastName;
 	}
+
 	public int getSsn() {
-	return this.age;
+		return this.age;
 	}
+
 	public String getHeight() {
 		return height;
 	}
+
 	public void setHeight(String height) {
 		this.height = height;
 	}
-	
-	}
 
-
+}

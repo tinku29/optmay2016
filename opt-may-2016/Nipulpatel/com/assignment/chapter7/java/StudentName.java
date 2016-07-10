@@ -6,35 +6,33 @@
  * class : Main class
  ***************************************************************/
 
-
 package com.assignment.chapter7.java;
 
 public class StudentName {
 
-	public  String getEmail() {
-		return Email;
+	String firstName;
+	String email;
+
+	public StudentName(String firstName, String email) {
+		this.firstName = firstName;
+		this.email = email;
+
+	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getEmail() {
+		return email;
 	}
 
 	public void setEmail(String email) {
-		Email = email;
+		this.email = email;
 	}
-
-	String firstName;
-	static String Email;
-	
-
-	public StudentName(String firstName, String Email) {
-		this.firstName = firstName;
-		this.Email = Email;
-		
-	}
-
-	public  String getFirstName() {
-		return this.firstName;
-	}
-
-
-	
-	
 
 }
