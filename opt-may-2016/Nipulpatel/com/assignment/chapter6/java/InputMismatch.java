@@ -13,6 +13,9 @@ import java.util.Scanner;
 
 public class InputMismatch {
 
+	private static Scanner scanner;
+	private static Scanner userInput1;
+
 	public static void main(String[] args) throws MyCustomException {
 
 		try {
@@ -22,11 +25,11 @@ public class InputMismatch {
 			int divisor = 0;
 
 			Scanner userInput;
-			Scanner scanner = userInput = new Scanner(System.in);
+			scanner = userInput = new Scanner(System.in);
 			System.out.println("Enter a Devidend");
 			devidend = userInput.nextInt();
 
-			Scanner userInput1 = new Scanner(System.in);
+			userInput1 = new Scanner(System.in);
 			System.out.println("Enter a Devisor");
 			divisor = userInput1.nextInt();
 			quotient = devidend / divisor;

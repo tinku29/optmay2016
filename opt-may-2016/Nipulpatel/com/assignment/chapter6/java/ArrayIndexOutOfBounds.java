@@ -13,6 +13,8 @@ import java.util.Scanner;
 
 public class ArrayIndexOutOfBounds {
 
+	private static Scanner userInput;
+
 	public static void main(String[] args) {
 
 		try {
@@ -25,7 +27,7 @@ public class ArrayIndexOutOfBounds {
 			Str[3] = "Bhavin";
 			Str[4] = "Sooraj";
 
-			Scanner userInput = new Scanner(System.in);
+			userInput = new Scanner(System.in);
 			System.out.println("Enter a number of person");
 			int number = userInput.nextInt();
 

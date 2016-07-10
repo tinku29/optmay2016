@@ -32,7 +32,7 @@ public class ArithmeticException {
 		userInput1 = new Scanner(System.in);
 		System.out.println("Enter a devisor");
 		divisor = userInput1.nextInt();
-		
+		//
 	
 		
 			quotient = devidend / divisor;

@@ -18,10 +18,13 @@ import com.assignment.chapter7.java.StudentName;
 
 public class NullPointer {
 
+	private static List<String> string;
+	private static Scanner userInput1;
+
 	public static void main(String[] args) {
 
 		try {
-			List<String> String = new ArrayList<>();
+			string = new ArrayList<>();
 
 			StudentName S = new StudentName("jakkku", "jakkulaakhilesh@gmail.com");
 			StudentName S1 = new StudentName("Abhilash", "madhavaram.tinku@gmail.com");
@@ -33,7 +36,7 @@ public class NullPointer {
 			
 
 			String name = "";
-			Scanner userInput1 = new Scanner(System.in);
+			userInput1 = new Scanner(System.in);
 			System.out.println("Enter a persons name");
 			name = userInput1.next();
 
