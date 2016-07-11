@@ -39,7 +39,7 @@ public class GenaricVehical<Vehicle> {
 					int1.add("car is ready for registration");
 					String str1;
 					// Get the objects
-					str1 = (String) int1.get(number);
+					str1 =  int1.get(number);
 					System.out.println(str1);
 					String carName = "CRV";
 					String CarMaker = "Honda";
@@ -59,7 +59,7 @@ public class GenaricVehical<Vehicle> {
 					int2.add("truck is ready for registration");
 					String str2;
 					// Get the objects
-					str2 = (String) int2.get(number);
+					str2 = int2.get(number);
 					System.out.println(str2);
 					String truckName = "SILVERADO 1500";
 					String truckMaker = "Chevrolet";
@@ -77,11 +77,11 @@ public class GenaricVehical<Vehicle> {
 					List<String> int3 = new ArrayList<>();
 					int3.add("sdf");
 					int3.add("sdf");
-					int3.add("bike is ready for registration");
+					int3.add("Bike is ready for registration");
 
 					String str3;
 					// Get the objects
-					str3 = (String) int3.get(number);
+					str3 = int3.get(number);
 
 					System.out.println(str3);
 					String bikekName = "Yamaha FZ 150cc";

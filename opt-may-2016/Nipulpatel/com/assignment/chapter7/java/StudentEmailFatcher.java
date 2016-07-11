@@ -20,49 +20,46 @@ public class StudentEmailFatcher {
 
 	public static void main(String[] args) {
 
-		try {
-			List<String> String = new ArrayList<>();
+		List<String> String = new ArrayList<>();
 
-			StudentName S = new StudentName("jakkku", "jakkulaakhilesh@gmail.com");
-			StudentName S1 = new StudentName("Abhilash", "madhavaram.tinku@gmail.com");
-			StudentName S2 = new StudentName("Sooraj", "bu34226n@pace.edu");
-			StudentName S3 = new StudentName("Sharanya", "sharanya.s215@gmail.com");
-			StudentName S4 = new StudentName("Dayana", "dmallass@hawk.iit.edu ");
-			StudentName S5 = new StudentName("Kalyalam", "kalyanamkrish@gmail.com ");
-			StudentName S6 = new StudentName("Bhavin", "psbhavin@gmail.com");
-			StudentName S7 = new StudentName("Jais", "j.jaise1@gmail.com");
-			StudentName S8 = new StudentName("Nipul", "nipulguru.patel@gmail.com");
-			StudentName S9 = new StudentName("Sankeerth", "sankeerth999@gmail.com");
+		StudentName S = new StudentName("jakkku", "jakkulaakhilesh@gmail.com");
+		StudentName S1 = new StudentName("Abhilash", "madhavaram.tinku@gmail.com");
+		StudentName S2 = new StudentName("Sooraj", "bu34226n@pace.edu");
+		StudentName S3 = new StudentName("Sharanya", "sharanya.s215@gmail.com");
+		StudentName S4 = new StudentName("Dayana", "dmallass@hawk.iit.edu ");
+		StudentName S5 = new StudentName("Kalyalam", "kalyanamkrish@gmail.com ");
+		StudentName S6 = new StudentName("Bhavin", "psbhavin@gmail.com");
+		StudentName S7 = new StudentName("Jais", "j.jaise1@gmail.com");
+		StudentName S8 = new StudentName("Nipul", "nipulguru.patel@gmail.com");
+		StudentName S9 = new StudentName("Sankeerth", "sankeerth999@gmail.com");
 
-			HashMap<String, StudentName> map = new HashMap<String, StudentName>();
-			
-			map.put("Jakkku", S);
-			map.put("Abhilash", S1);
-			map.put("Sooraj", S2);
-			map.put("Sharanya", S3);
-			map.put("Dayana", S4);
-			map.put("Kalyalam", S5);
-			map.put("Bhavin", S6);
-			map.put("Jais", S7);
-			map.put("Nipul", S8);
-			map.put("Sankeerth", S9);
-			// Get Smiths info
+		HashMap<String, StudentName> map = new HashMap<String, StudentName>();
 
-			String name = "";
-			Scanner userInput1 = new Scanner(System.in);
-			System.out.println("Enter a persons name");
-			name = userInput1.next();
+		map.put("Jakkku", S);
+		map.put("Abhilash", S1);
+		map.put("Sooraj", S2);
+		map.put("Sharanya", S3);
+		map.put("Dayana", S4);
+		map.put("Kalyalam", S5);
+		map.put("Bhavin", S6);
+		map.put("Jais", S7);
+		map.put("Nipul", S8);
+		map.put("Sankeerth", S9);
+		// Get Smiths info
 
-			StudentName student = (StudentName) map.get(name);
+		String name = "";
+		Scanner userInput1 = new Scanner(System.in);
+		System.out.println("Enter a persons name");
+		name = userInput1.next();
+
+		StudentName student =  map.get(name);
+
+		if (student != null) {
 			System.out.println(student.getFirstName() + " " + student.getEmail());
-		} 
-		
-		catch (java.lang.NullPointerException npe) {
-
-			System.out.println("Name is not in database please try agian Hint: First latter capital");
-
 		}
-		
-	}
 
+		else {
+			System.out.println("Name is not in database please try agian Hint: First latter capital");
+		}
+	}
 }

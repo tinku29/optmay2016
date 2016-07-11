@@ -42,10 +42,8 @@ public class ArithmeticException {
 			System.out.println("Arithmetic Exception check the divisor");
 			
 		}
-		catch(java.lang.NullPointerException ad )
-		{
-			System.out.println("Null pointer Exception check the code");
+		
 		}
 	}
 
-}
+

@@ -27,7 +27,7 @@ public class HashMapDemo {
 		map.put("98765", c3);
 		// Get Smiths info
 		
-		Customer customer = (Customer) map.get("345678");
+		Customer customer = map.get("345678");
 		System.out.println(customer.getFirstName() + " " + customer.getLastName() + " " + customer.getSsn());
 	}
 

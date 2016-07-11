@@ -23,7 +23,7 @@ public class ArrayListDemo {
 		String s1 =  null;
 		//Get the objects
 		
-		 s1 = (String) list.get(0);
+		 s1 = list.get(0);
 		
 		
 		System.out.println(s1);
