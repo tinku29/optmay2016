@@ -82,7 +82,7 @@ public class GenaricVehical<Vehicle> {
 					String str3;
 					// Get the objects
 					str3 = int3.get(number);
-
+					// Do not have to cast it
 					System.out.println(str3);
 					String bikekName = "Yamaha FZ 150cc";
 					String bikeMaker = "Yamaha";

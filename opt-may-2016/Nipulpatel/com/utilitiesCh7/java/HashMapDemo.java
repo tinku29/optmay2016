@@ -28,6 +28,7 @@ public class HashMapDemo {
 		// Get Smiths info
 		
 		Customer customer = map.get("345678");
+		// casting is not needed
 		System.out.println(customer.getFirstName() + " " + customer.getLastName() + " " + customer.getSsn());
 	}
 

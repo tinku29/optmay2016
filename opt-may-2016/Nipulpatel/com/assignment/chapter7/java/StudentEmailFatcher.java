@@ -51,9 +51,9 @@ public class StudentEmailFatcher {
 		Scanner userInput1 = new Scanner(System.in);
 		System.out.println("Enter a persons name");
 		name = userInput1.next();
-
+		// 
 		StudentName student =  map.get(name);
-
+		// Avoid use Null pointer exception 
 		if (student != null) {
 			System.out.println(student.getFirstName() + " " + student.getEmail());
 		}
