@@ -2,7 +2,7 @@ package com.two95.chapter7;
 
 import java.util.Date;
 
-public class StringBufferDemo {
+public class StringBufferDemo1 {
 
 	public static void main(String args[]) {
 		Date d = new Date();
