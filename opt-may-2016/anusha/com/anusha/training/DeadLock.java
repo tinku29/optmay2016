@@ -16,12 +16,7 @@ public class DeadLock {
 	           synchronized (resource2) {  
 	            System.out.println("Thread 1: locked resource 2");  
 	           }  
-	         }  
-	      }  
-	    };  
-	  
-	     
-	    Thread t2 = new Thread() {  
+	         Thread t2 = new Thread() {  
 	      public void run() {  
 	        synchronized (resource2) {  
 	          System.out.println("Thread 2: locked resource 2");  
@@ -33,9 +28,6 @@ public class DeadLock {
 	          }  
 	        }  
 	      }  
-	    };  
-	  
-	      
 	    t1.start();  
 	    t2.start();  
 	  }  
