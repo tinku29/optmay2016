@@ -19,6 +19,12 @@ public class LastNameComparator implements Comparator {
 		OptStudent c2 = (OptStudent) o2;
 		int index = c1.getLastName().compareTo(c2.getLastName());
 		return index;
-
 	}
-}
+		
+		}
+		
+		
+		
+		
+		
+	

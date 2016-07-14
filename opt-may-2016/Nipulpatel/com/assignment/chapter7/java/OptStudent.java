@@ -13,28 +13,43 @@ public class OptStudent {
 
 	String firstName;
 	String lastName;
-	int age;
+	String age;
+	
+	
 	String height;
 
-	public OptStudent(String firstName, String lastName, int age, String height) {
+	public OptStudent(String firstName, String lastName, String age, String height) {
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.age = age;
 		this.height = height;// Height
 
+		
+		
 	}
 
 	public String getFirstName() {
-		return this.firstName;
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
 	}
 
 	public String getLastName() {
-
-		return this.lastName;
+		return lastName;
 	}
 
-	public int getSsn() {
-		return this.age;
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	public String getAge() {
+		return age;
+	}
+
+	public void setAge(String age) {
+		this.age = age;
 	}
 
 	public String getHeight() {
@@ -44,5 +59,6 @@ public class OptStudent {
 	public void setHeight(String height) {
 		this.height = height;
 	}
+
 
 }
