@@ -1,6 +1,6 @@
 package com.two95.chapter7;
 import java.lang.Integer;
-public class WrapperDemo {
+public class WrapperDemo1 {
 
 	public static void main(String[] args) {
 		int i=10;

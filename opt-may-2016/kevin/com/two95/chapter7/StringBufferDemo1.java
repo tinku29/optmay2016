@@ -1,6 +1,6 @@
 package com.two95.chapter7;
 
-public class StringBufferDemo {
+public class StringBufferDemo1{
 
 	public static void main(String[] args) {
 	 StringBuffer buffer=new StringBuffer();
