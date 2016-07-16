@@ -1,6 +1,6 @@
 package com.two95.chapter7;
 import java.util.*;
-public class VectorDemo {
+public class VectorDemo1 {
 
 	public static void main(String[] args) {
 		List list=new Vector();
