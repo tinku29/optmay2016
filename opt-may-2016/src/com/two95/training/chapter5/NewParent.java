@@ -1,12 +1,12 @@
 package com.two95.training.chapter5;
 
-public class Parent {
+public class NewParent {
 
-	public void work() {
+	public void renamedWork() {
 		System.out.println("Parent : work");
 	}
 
-	public void sing() {
+	public void singLoudly() {
 		System.out.println("Parent : sing");
 	}
 	
