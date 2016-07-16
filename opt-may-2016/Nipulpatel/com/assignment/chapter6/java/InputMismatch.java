@@ -13,9 +13,11 @@ import java.util.Scanner;
 
 public class InputMismatch {
 
+	@SuppressWarnings("unused")
 	private static Scanner scanner;
 	private static Scanner userInput1;
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) throws MyCustomException {
 
 		try {

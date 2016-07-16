@@ -10,6 +10,7 @@
 
 package com.assignment.chapter6.java;
 
+@SuppressWarnings("serial")
 public class MyCustomException extends Exception {
 		public MyCustomException(String message) {
 		// Pass the message to the parent class constructor
